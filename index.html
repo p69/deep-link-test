@@ -110,7 +110,7 @@
 
             // Build the market and web URLs
             const marketUrl = `market://details?id=${PKG_ID}&referrer=${REFERRER_ENC}`;
-            const webUrl = marketUrl; \\`https://play.google.com/store/apps/details?id=${PKG_ID}&referrer=${REFERRER_ENC}`;
+            const webUrl = marketUrl; //`https://play.google.com/store/apps/details?id=${PKG_ID}&referrer=${REFERRER_ENC}`;
 
             const isAndroid = /Android/i.test(navigator.userAgent);
             const isDebug = new URLSearchParams(location.search).has("debug");
